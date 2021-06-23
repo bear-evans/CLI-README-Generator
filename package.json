@@ -1,0 +1,24 @@
+{
+  "name": "CLI-README-Generator",
+  "version": "1.0.0",
+  "description": "A README generator run in the command line, powered by and Inquirer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bear-evans/CLI-README-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bear-evans/CLI-README-Generator/issues"
+  },
+  "homepage": "https://github.com/bear-evans/CLI-README-Generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^8.1.1"
+  }
+}
