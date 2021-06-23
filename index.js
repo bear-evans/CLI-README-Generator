@@ -97,7 +97,7 @@ ${data.tests}
 
 This project is licensed under the terms of the ${data.license} license.`;
 
-    fs.writeFile(data.projectName + "README.md", fileContents, (err) => {
+    fs.writeFile(data.projectName + " README.md", fileContents, (err) => {
       err ? console.log(err) : console.log("README generated!");
     });
   });
