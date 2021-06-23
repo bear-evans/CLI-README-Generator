@@ -17,7 +17,7 @@ To run this project, you must install node.js and inquirer. To install node.js, 
 
 ## Usage
 
-Run the program using the command 'node index.js'. Follow the prompts given. Note that due to limitations of inquirer, multi-line input is not supported.
+Run the program using the command 'node index.js'. Follow the prompts given. Note that due to limitations of inquirer, multi-line input is not supported. A [demonstration video](https://drive.google.com/file/d/1Ok3q8IK63Z-0EFzF4H3ZaKnJNj_rq8eS/view) is also available.
 
 ## Contribution
 
