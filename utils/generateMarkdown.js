@@ -102,7 +102,7 @@ ${renderLicenseSection(data.license)}
 If you have any questions about this project, you can contact me via [email](${
     data.email
   }) or visit my [Github](https://github.com/${
-    data.github
+    data.githubUsername
   }/) for issues and bug tracking.`;
 }
 
