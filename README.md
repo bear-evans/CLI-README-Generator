@@ -4,12 +4,16 @@
 
 Bear's README Generator is a command-line application that generates README files based on user input. In fact, this README was created using this program.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribution](#contribution)
 - [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
 
 ## Installation
 
@@ -17,7 +21,7 @@ To run this project, you must install node.js and inquirer. To install node.js, 
 
 ## Usage
 
-Run the program using the command 'node index.js'. Follow the prompts given. Note that due to limitations of inquirer, multi-line input is not supported. A [demonstration video](https://drive.google.com/file/d/1Ok3q8IK63Z-0EFzF4H3ZaKnJNj_rq8eS/view) is also available.
+Run the program using the command 'node index.js'. Follow the prompts given. Note that due to limitations of inquirer, multi-line input is not supported. A [demonstration video](https://drive.google.com/file/d/17LCFSireKyx-10VELqSzBVAJN6bXHHBi/view) is also available.
 
 ## Contribution
 
@@ -27,6 +31,10 @@ Bear's README Generator is open source and free to use or modify. There is no re
 
 There are currently no specific testing procedures to run.
 
+## Questions
+
+If you have any questions about this project, you can contact me via [email](bear-evans@outlook.com) or visit my [Github](https://github.com/bear-evans/) for issues and bug tracking.
+
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).

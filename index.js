@@ -50,7 +50,7 @@ const questions = [
     type: "list",
     message: "What license will you release under?",
     choices: [
-      "MIT",
+      "MIT License",
       "Creative Commons Attribution Share Alike 4.0",
       "GNU General Public v3.0",
       "Apache License v2.0",
@@ -75,10 +75,10 @@ function init() {
   console.log("generated and saved to a ready-to-go file!   ");
   console.log("=============================================");
 
-  const fileContents = inquirer
-    .prompt(questions)
-    .then((answers) => generateMarkdown(answers));
-  writeToFile("README.md", fileContents);
+  inquirer.prompt(questions).then((answers) => {
+    const fileContents = generateMarkdown(answers);
+    writeToFile("Generated README.md", fileContents);
+  });
 }
 
 // Function call to initialize app
