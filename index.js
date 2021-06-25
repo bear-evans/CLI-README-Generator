@@ -53,7 +53,7 @@ const questions = [
       "MIT",
       "Creative Commons Attribution Share Alike 4.0",
       "GNU General Public v3.0",
-      "Mozilla Public 2.0",
+      "Apache License v2.0",
     ],
   },
 ];
@@ -61,7 +61,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
-    err ? console.log(err) : console.log("File saved!")
+    err ? console.log(err) : console.log("README generated!")
   );
 }
 
